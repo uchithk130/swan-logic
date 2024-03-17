@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software Testing</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Custom CSS -->
+  <link href="carousel.css" rel="stylesheet">
+
+  <style>
+    /* Add your custom styles here */
+    .animated-image {
+  width: 300px; /* Set the width of the container */
+  height: 300px; /* Set the height of the container */
+  margin-bottom: 20px;
+  animation: floatAnimation 3s ease infinite alternate;
+  background-size: contain; /* Ensure the image fits into the container */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-position: center; /* Center the image within the container */
+}
+
+    
+
+    /* Circular images */
+    .rounded-circle {
+      border-radius: 50%;
+    }
+
+    /* Extraordinary font for paragraphs */
+    .container p {
+      font-family: 'Roboto', sans-serif; /* Change to your desired font family */
+      font-weight: bold;
+    }
+
+    /* Icon style for starting of paragraphs */
+    .container p {
+      padding-left: 30px;
+    }
+
+    .container p i {
+      margin-right: 10px;
+      color: #007bff; /* Change the color as needed */
+    }
+    .back-button {
+        padding: 10px 15px; /* Increase padding for better appearance */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #ddd;
+        transition: background-color 0.3s; /* Add transition for smooth hover effect */
+    }
+    .back-button:hover {
+        background-color: #ccc; /* Change background color on hover */
+    }
+    .full-height-block {
+height: 85vh; /* Minimum height to prevent too much shrinking */
+width: 100%;
+background-image: url('images/st-banner.jpeg');
+background-size: cover;
+background-position: center;
+position: relative;
+overflow: hidden;
+}
+.navbar-brand img {
+        height: 80px; /* Adjust logo height */
+        width: 80px; /* Make the logo circular */
+        border-radius: 50%; /* Make the logo circular */
+        object-fit: cover; /* Ensure the logo fills the circular space */
+    }
+    .company-name {
+        font-size: 24px;
+    }
+    .header {
+        width: 100%;
+        padding: 10px;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="header">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logo.jpg" alt="logo">
+  </a>
+    <h1 class="company-name">SWAN LOGIC</h1>
+   
+    <button class="back-button" onclick="redirectToPage('index2.html')"><i class="fas fa-chevron-left"></i> Back</button>
+
+  </div>
+
+  <!-- Header Section -->
+  
+  <header>
+    <div class="full-height-block">
+      <div class="text-overlay">
+        <div class="text-overlay2"> <div class="text-container">
+
+          <h1>SOFTWARE TESTING</h1>
+          <p>Proven software application testing</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+ <!-- Features Section -->
+ <section id="features" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4"></h2>
+      <!-- Add your features here -->
+      <div class="row">
+        <div class="col-md-6">
+          <p>We ensure your application succeeds with proven software application testing. You’ve invested time and money into building your software application and you are ready to launch. Are you confident that it does what it is supposed to? That users will be able to use it as intended? That the data you collect will be secure? And users will be able to access the application from their plethora of devices and platforms?</p>
+          <p>Feel confident that you are launching a quality application by investing a little more time and effort to test your system.</p>
+          <!-- Add more features as needed -->
+        </div>
+        <div class="col-md-4 text-center p-3">
+            <img src="images/st-1.jpeg" alt="Animated Image" class="animated-image rounded-circle img-fluid">
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- Rules Section -->
+<section id="rules" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Our software application testing services
+
+      </h2>
+      <!-- Add your rules here -->
+      <div class="row">
+        <div class="col-md-4 text-center pd-5">
+          <img src="images/st-2.png" alt="Animated Image" class="animated-image rounded-circle img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h4><i class="fas fa-stopwatch"></i> Functional Testing</h4>
+            <p>Gain independent assurance that defects are resolved before users find them and the system meets original requirements.</p>
+          
+            <h4><i class="fas fa-chart-line"></i> Performance Testing</h4>
+            <p>Mitigate the risk associated with slow application performance or system failure due to high user volume.</p>
+          
+            <h4><i class="fas fa-user"></i> Usability Testing</h4>
+            <p>Find out first-hand how real users interact with your app with real-time usability testing.</p>
+          
+            <h4><i class="fas fa-mobile-alt"></i> Mobile App Testing</h4>
+            <p>Ensure your customers have a consistent user experience across various devices and mobile platforms.</p>
+          
+            <h4><i class="fas fa-shield-alt"></i> Compliance Testing</h4>
+            <p>Ensure compliance to government legislation and ensure privacy and security of your data.</p>
+          
+            <!-- Add more rules as needed -->
+          </div>
+          
+      </div>
+    </div>
+  </section>
+  
+  <!-- Web Strategy Section -->
+ 
+  
+ 
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>&copy; 2024 IT Domains</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    function redirectToPage(url) {
+        window.location.href = url;
+    }
+</script>
+</body>
+</html>

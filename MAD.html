@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Appliction Development</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Custom CSS -->
+  <link href="carousel.css" rel="stylesheet">
+
+  <style>
+    /* Add your custom styles here */
+    .animated-image {
+  width: 300px; /* Set the width of the container */
+  height: 300px; /* Set the height of the container */
+  margin-bottom: 20px;
+  animation: floatAnimation 3s ease infinite alternate;
+  background-size: contain; /* Ensure the image fits into the container */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-position: center; /* Center the image within the container */
+}
+
+
+    /* Circular images */
+    .rounded-circle {
+      border-radius: 50%;
+    }
+
+    /* Extraordinary font for paragraphs */
+    .container p {
+      font-family: 'Roboto', sans-serif; /* Change to your desired font family */
+      font-weight: bold;
+    }
+
+    /* Icon style for starting of paragraphs */
+    .container p {
+      padding-left: 30px;
+    }
+
+    .container p i {
+      margin-right: 10px;
+      color: #007bff; /* Change the color as needed */
+    }
+    .back-button {
+        padding: 10px 15px; /* Increase padding for better appearance */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #ddd;
+        transition: background-color 0.3s; /* Add transition for smooth hover effect */
+    }
+    .back-button:hover {
+        background-color: #ccc; /* Change background color on hover */
+    }
+    .full-height-block {
+height: 85vh; /* Minimum height to prevent too much shrinking */
+width: 100%;
+background-image: url('images/MA-banner.jpeg');
+background-size: cover;
+background-position: center;
+position: relative;
+overflow: hidden;
+}
+.navbar-brand img {
+        height: 70px; /* Adjust logo height */
+        width: 70px; /* Make the logo circular */
+        border-radius: 50%; /* Make the logo circular */
+        object-fit: cover; /* Ensure the logo fills the circular space */
+    }
+    .company-name {
+        font-size: 24px;
+    }
+    .header {
+        width: 100%;
+        padding: 10px;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="header">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logo.jpg" alt="logo">
+  </a>
+    <h1 class="company-name">SWAN LOGIC</h1>
+    <button class="back-button" onclick="redirectToPage('index2.html')"><i class="fas fa-chevron-left"></i> Back</button>
+
+  </div>
+
+  <!-- Header Section -->
+ <header>
+    <div class="full-height-block">
+      <div class="text-overlay">
+        <div class="text-overlay2"> <div class="text-container">
+
+          <h1>MOBILE APPLICATION DEVELOPMENT</h1>
+        <p>Top-notch mobile experience that runs seamlessly</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+ <!-- Features Section -->
+ <section id="features" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4"></h2>
+      <!-- Add your features here -->
+      <div class="row">
+        <div class="col-md-6">
+          <p>swan-logic is engaged in engineering and developing a top-notch mobile experience that runs seamlessly across iOS, Andriod and Windows devices and enables you to enhance your business by increasing customer engagement.</p>
+          <p>The passionate design architects and developers team at swan-logic are enriched with several years of experience in delivering mobile applications which stands out when it comes to addressing industry-specific security and compliance considerations.</p>
+          <p>Our 360° customer-focused approach to crafting user-friendly mobile applications helps us to win the confidence of our client base across the world and enable us to be a key partner in digital transformation technology.</p>
+          <!-- Add more features as needed -->
+        </div>
+        <div class="col-md-4 text-center p-3">
+            <img src="images/MA-1.jpeg" alt="Animated Image" class="animated-image rounded-circle img-fluid">
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- Rules Section -->
+<section id="rules" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Platform</h2>
+      <!-- Add your rules here -->
+      <div class="row">
+        <div class="col-md-4 text-center pd-5">
+          <img src="images/MA-2.jpeg" alt="Animated Image" class="animated-image rounded-circle img-fluid">
+        </div>
+        <div class="col-md-8">
+            <p><i class="fas fa-mobile-alt"></i> iOS App Development</p>
+            <p><i class="fab fa-android"></i> Android App Development</p>
+            <p><i class="fab fa-windows"></i> Windows App Development</p>
+            <p><i class="fas fa-code-branch"></i> Hybrid App Development</p>
+            <!-- Add more rules as needed -->
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Web Strategy Section -->
+  <section id="web-strategy" class="p-3 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Workflow</h2>
+      <!-- Add your content here -->
+      <div class="row">
+        <div class="col-md-8">
+            <p><i class="fas fa-search"></i> Discover - Our business analysts analyze your demands and determine growth opportunities</p>
+            <p><i class="fas fa-pencil-alt"></i> Design - Based on our analysis, our designers’ team brings you a proposal</p>
+            <p><i class="fas fa-code"></i> Develop - Our mobile app developers create and test your mobile application</p>
+            <p><i class="fas fa-handshake"></i> Covenant - Technologies helps you maintain, update and improve your application as your business grows</p>
+            <!-- Add more rules as needed -->
+        </div>
+        <div class="col-md-4 text-center p-3">
+          <img src="images/MA-3.jpeg" alt="Animated Image" class="animated-image rounded-circle img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+ 
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p> Copyright &copy;  2024 Swan Logic - All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    function redirectToPage(url) {
+        window.location.href = url;
+    }
+</script>
+</body>
+</html>

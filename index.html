@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-js/1.0.1/color.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.122.0">
+    <title>Swan-logic</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-ZO4oJfXH6rd4M5e1zDCy5PSX1F8V4PP4uXiR8dR+whju3lThJw26D++lGlMU5dp9" crossorigin="anonymous">
+
+    <meta name="theme-color" content="#712cf9">
+    <style>
+    .btn-whatsapp {
+        background-color: #25d366; /* WhatsApp green */
+        color: #fff; /* White text */
+        border-color: #25d366; /* WhatsApp green */
+    }
+
+    .btn-whatsapp:hover {
+        background-color: #128c7e; /* Darker WhatsApp green on hover */
+        border-color: #128c7e; /* Darker WhatsApp green on hover */
+    }
+
+         #schedule-list ul {
+        list-style-type: none; /* Remove bullet points */
+        padding: 0; /* Remove default padding */
+    }
+      #contact-section {
+        padding: 50px 0;
+    }
+   
+
+    .featurette-container .col-md-6 {
+        border: 1px solid #e0e0e0;
+        border-radius: 10px;
+        padding: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    .featurette-container .col-md-6 .text-center p {
+        margin-bottom: 30px;
+    }
+
+    .featurette-container .col-md-6 .btn {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+
+    .featurette-container .col-md-6 .btn:hover {
+        background-color: #218838;
+        border-color: #1e7e34;
+    }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav-class">
+        <div class="container-fluid"> <!-- Removed m-3 container -->
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.jpg" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item m-r" id="home">
+                        <a class="nav-link" href="#" onclick="smoothScroll('#home-section')">Home</a>
+                    </li>
+                    <li class="nav-item mr-2" id="about">
+                        <a class="nav-link" href="#" onclick="smoothScroll('#about-section')">About</a>
+                    </li>
+                    <li class="nav-item mr-2" id="contact">
+                        <a class="nav-link" href="#" onclick="redirectToPage('index2.html')">Services</a>
+                    </li>
+                    <li class="nav-item mr-2" id="contact">
+                        <a class="nav-link" href="#" onclick="smoothScroll('#contact-section')">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <main>
+      
+           
+        <div id="home-section" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div class="full-height-block">
+              <div class="text-overlay">
+                <div class="text-overlay2"> <div class="text-container">
+
+                  <h1>TRANSFORMING THE FUTURE OF IT</h1>
+                  <p>We offer innovative solutions for your business needs.</p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        
+        
+        
+                       
+
+        
+            
+            
+                
+        <div id="about-section">
+            <div class="text-center p-5">
+                <h1 class="fw-normal lh-1">About Swan Logic</h1>
+                </div>
+            <div class="container marketing">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img class="bd-placeholder-img rounded-circle" width="270" height="270"  src="images/company.jpg" alt="company">
+                        <h2 class="fw-normal p-4">Our Company</h2>
+                        <p>We are a leading IT company that specializes in web development and design. Our team of experts has years of experience in creating high-quality websites that are user-friendly and visually appealing.</p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <img class="bd-placeholder-img rounded-circle" width="270" height="270"  src="images/services.jpg" alt="company">
+                        <h2 class="fw-normal p-4">Our Services</h2>
+                        <p>We offer a wide range of IT services including web development, web design, e-commerce development, mobile app development, and digital marketing. Our team is dedicated to providing customized solutions that meet our clients' specific needs.</p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <img class="bd-placeholder-img rounded-circle" width="270" height="270"  src="images/team.jpg" alt="company">
+                        <h2 class="fw-normal p-4">Our Team</h2>
+                        <p>Our team is made up of highly skilled and experienced professionals who are passionate about what they do. We work together to ensure that our clients receive the best possible service and results..</p>
+                    </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+                <div class="text-center"> <!-- Center the button -->
+                    <p><a class="btn btn-secondary" href="index2.html">Services &raquo;</a></p>
+                </div>
+            </div><!-- /.container -->
+        </div><!-- /#about-section -->
+        <div id="contact-section" class="p-5">
+            <div class="text-center">
+                <h1 class="fw-normal lh-1">Contact Us</h1>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette-container">
+                <!-- Form Section -->
+                <div class="col-md-6 p-5">
+                    <form id="contact-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="project" class="form-label">Tell us about your project</label>
+                            <textarea class="form-control" id="project" name="project" rows="3" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="files" class="form-label">Attach files</label>
+                            <input type="file" class="form-control" id="files" name="files[]" multiple>
+                            <small class="form-text text-muted">You can attach multiple files.</small>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="acceptTerms" required>
+                            <label class="form-check-label" for="acceptTerms">I accept the terms and conditions</label>
+                        </div>
+                        <button type="button" id="send-email" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+                <!-- WhatsApp Contact Section -->
+                <div class="col-md-6 p-5">
+                    <div class="text-center">
+                        <p class="lead">Questions or Comments? We know that our clients have unique needs. Send us a message, and we will get back to you soon.</p>
+                    </div>
+                    <div class="text-center mt-4">
+                        <button class="btn btn-success btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i> Message us on WhatsApp
+                        </button>
+                    </div>
+                    
+                    <div class="text-center mt-4">
+                        <p class="mb-0"><b>Swan Logic</b></p>
+                        <p>2298 Young Avenue, Memphis, TN, USA</p>
+                    </div>
+                    <div class="text-center mt-4">
+                        <b><p class="mb-0">Hours-EST</p></b>
+                        <div id="schedule-list"></div>
+                        <button id="toggle-schedule" class="btn btn-secondary mt-3">Show Weekly Schedule</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer class="container-fluid bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center text-md-start">
+                    Copyright &copy;  2024 Swan Logic - All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <script>
+        function smoothScroll(target) {
+            const element = document.querySelector(target);
+            element.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    document.getElementById('send-email').addEventListener('click', function() {
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var project = document.getElementById('project').value;
+        var mailtoLink = 'mailto:uchithk6@gmail.com?subject=Contact Form Submission&body=Name: ' + name + '%0D%0AEmail: ' + email + '%0D%0AProject: ' + project;
+        window.location.href = mailtoLink;
+    });
+    function getToday() {
+        return (new Date()).getDay();
+    }
+
+    // Function to update the displayed schedule based on the current day
+    function updateTodaySchedule() {
+        var today = getToday();
+        var schedule = [
+            "Closed", // Sunday
+            "Mon: 09:00 am – 06:00 pm", // Monday
+            "Tue: 09:00 am – 06:00 pm", // Tuesday
+            "Wed: 09:00 am – 06:00 pm", // Wednesday
+            "Thu: 09:00 am – 06:00 pm", // Thursday
+            "Fri: 09:00 am – 06:00 pm", // Friday
+            "Closed"  // Saturday
+        ];
+        document.getElementById('schedule-list').innerHTML = '<ul><li>' + schedule[today] + '</li></ul>';
+    }
+
+    // Function to display the full weekly schedule upon button click
+    function showFullWeeklySchedule() {
+        var schedule = [
+            "Sun: Closed", // Sunday
+            "Mon: 09:00 am – 06:00 pm", // Monday
+            "Tue: 09:00 am – 06:00 pm", // Tuesday
+            "Wed: 09:00 am – 06:00 pm", // Wednesday
+            "Thu: 09:00 am – 06:00 pm", // Thursday
+            "Fri: 09:00 am – 06:00 pm", // Friday
+            "Sat: Closed"  // Saturday
+        ];
+        var scheduleHTML = '<ul>';
+        for (var i = 0; i < schedule.length; i++) {
+            scheduleHTML += '<li>' + schedule[i] + '</li>';
+        }
+        scheduleHTML += '</ul>';
+        document.getElementById('schedule-list').innerHTML = scheduleHTML;
+    }
+
+    // Function to toggle between displaying today's schedule and the full weekly schedule
+    function toggleSchedule() {
+        var button = document.getElementById('toggle-schedule');
+        if (button.textContent === 'Show Weekly Schedule') {
+            showFullWeeklySchedule();
+            button.textContent = 'Hide Weekly Schedule';
+        } else {
+            updateTodaySchedule();
+            button.textContent = 'Show Weekly Schedule';
+        }
+    }
+
+    // Update today's schedule on page load
+    window.addEventListener('DOMContentLoaded', function() {
+        updateTodaySchedule();
+    });
+    function redirectToPage(url) {
+        window.location.href = url;
+    }
+
+    // Add event listener to toggle button
+    document.getElementById('toggle-schedule').addEventListener('click', toggleSchedule);
+    </script>
+</body>
+</html>

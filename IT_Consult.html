@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT Consulting</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Custom CSS -->
+  <link href="carousel.css" rel="stylesheet">
+
+  <style>
+    /* Add your custom styles here */
+    .animated-image {
+  width: 300px; /* Set the width of the container */
+  height: 300px; /* Set the height of the container */
+  margin-bottom: 20px;
+  animation: floatAnimation 3s ease infinite alternate;
+  background-size: contain; /* Ensure the image fits into the container */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-position: center; /* Center the image within the container */
+}
+
+   
+
+    /* Circular images */
+    .rounded-circle {
+      border-radius: 50%;
+    }
+
+    /* Extraordinary font for paragraphs */
+    .container p {
+      font-family: 'Roboto', sans-serif; /* Change to your desired font family */
+      font-weight: bold;
+    }
+
+    /* Icon style for starting of paragraphs */
+    .container p {
+      padding-left: 30px;
+    }
+
+    .container p i {
+      margin-right: 10px;
+      color: #007bff; /* Change the color as needed */
+    }
+    .back-button {
+        padding: 10px 15px; /* Increase padding for better appearance */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #ddd;
+        transition: background-color 0.3s; /* Add transition for smooth hover effect */
+    }
+    .back-button:hover {
+        background-color: #ccc; /* Change background color on hover */
+    }
+    .full-height-block {
+height: 85vh; /* Minimum height to prevent too much shrinking */
+width: 100%;
+background-image: url('images/consulting-banner.jpg');
+background-size: cover;
+background-position: center;
+position: relative;
+overflow: hidden;
+}
+.navbar-brand img {
+        height: 70px; /* Adjust logo height */
+        width: 70px; /* Make the logo circular */
+        border-radius: 50%; /* Make the logo circular */
+        object-fit: cover; /* Ensure the logo fills the circular space */
+    }
+    .company-name {
+        font-size: 24px;
+    }
+    .header {
+        width: 100%;
+        padding: 10px;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="header">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logo.jpg" alt="logo">
+  </a>
+    <h1 class="company-name">SWAN LOGIC</h1>
+    <button class="back-button" onclick="redirectToPage('index2.html')"><i class="fas fa-chevron-left"></i> Back</button>
+
+  </div>
+
+  <!-- Header Section -->
+  <header>
+    <div class="full-height-block">
+      <div class="text-overlay">
+        <div class="text-overlay2"> <div class="text-container">
+
+          <h1>IT CONSULTING</h1>
+        <p>Enterprise-level technologies and scalable IT consulting services</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4"></h2>
+      <!-- Add your features here -->
+      <div class="row">
+        <div class="col-md-6">
+          <p>With the penetration of internet benefits these days, most businesses - both small and big companies are transiting to IT infrastructure. As technology continues to drive the business affairs, the business people need to hire IT staff to properly manage and execute the IT systems.</p>
+          <p>The experienced IT professionals at swan-logic, always strive to provide enterprise-level technologies and scalable IT consulting services as an extension for your in-house IT staff.</p>
+          <p>Whether you need the entire technology eco-system managed or support with your current project, you can count on swan-logic for customized solutions that suit the specific needs and requirements of your business.</p>
+          <!-- Add more features as needed -->
+        </div>
+        <div class="col-md-6">
+          <img src="images/consulting-1.jpg" alt="Animated Image" class="animated-image float-right rounded-circle img-fluid " width="600px" height="600px">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <h1 class="p-5"><center>Our IT Consulting services focus on</center></h1>
+  <!-- Rules Section -->
+<section id="rules" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">IT Design Services</h2>
+      <!-- Add your rules here -->
+      <div class="row">
+        <div class="col-md-4 text-center pd-5">
+          <img src="images/consulting-2.jpg" alt="Animated Image" class="animated-image rounded-circle img-fluid">
+        </div>
+        <div class="col-md-8">
+          <p><i class="fas fa-cogs"></i> Defines the scope of and specification for the technical design of IT system within a defined project</p>
+          <p><i class="fas fa-check"></i> The scope and technical design includes review of architectural, technology, and skill readiness of the organization</p>
+          <!-- Add more rules as needed -->
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Web Strategy Section -->
+  <section id="web-strategy" class="p-3 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Web Strategy Services</h2>
+      <!-- Add your content here -->
+      <div class="row">
+        <div class="col-md-8">
+          <p><i class="fas fa-cogs"></i> Interprets the organization current web capabilities and needs to meet the overall business strategy</p>
+          <p><i class="fas fa-check"></i> Applies knowledge of computer system architectures and emerging technologies to define the appropriate Web architecture to meet</p>
+          <!-- Add more rules as needed -->
+        </div>
+        <div class="col-md-4 text-center p-3">
+          <img src="images/consulting-3.jpg" alt="Animated Image" class="animated-image rounded-circle img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Strategic Objectives Section -->
+  <section id="strategic-objectives" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Strategic Objectives</h2>
+      <!-- Add your content here -->
+      <div class="row">
+        <div class="col-md-4 text-center pd-5">
+          <img src="images/consulting-4.jpg" alt="Animated Image" class="animated-image rounded-circle img-fluid">
+        </div>
+        <div class="col-md-8">
+          <p><i class="fas fa-map-signs"></i> Creates a vision for migrating existing systems</p>
+          <p><i class="fas fa-laptop-code"></i> Usability Engineering</p>
+          <p><i class="fab fa-internet-explorer"></i> Rich Internet Applications(RIA) using AJAX and Web 2.0</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Covenant Technologies Section -->
+  <section id="covenant-technologies" class="p-3 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Covenant Technologies Activities and Deliverables</h2>
+      <!-- Add your content here -->
+      <div class="row">
+        <div class="col-md-8">
+          <p><i class="fas fa-map-signs"></i> Strategy and road map formulation</p>
+          <p><i class="fas fa-poll"></i> Assessment and evaluation</p>
+          <p><i class="fas fa-layer-group"></i> Solution architecting</p>
+          <p><i class="fas fa-puzzle-piece"></i> Solution building or integration</p>
+          <p><i class="fas fa-chart-line"></i> Analytics design and implementation</p>
+          <p><i class="fas fa-arrow-circle-up"></i> Upgrade / migration services</p>
+          <p><i class="fas fa-wrench"></i> Operations, maintenance and support services</p>
+          <!-- Add more activities and deliverables as needed -->
+        </div>
+        <div class="col-md-4 text-center p-3">
+          <img src="images/consulting-5.jpg" alt="Animated Image" class="animated-image rounded-circle img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+ 
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p> Copyright &copy;  2024 Swan Logic - All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    function redirectToPage(url) {
+        window.location.href = url;
+    }
+</script>
+</body>
+</html>
