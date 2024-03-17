@@ -199,4 +199,12 @@ width: 100%;
   .text-container p {
     font-size: 1.4em;
   }
+ .navbar-brand {
+    font-family: 'Inter', sans-serif; /* Use Inter font or fallback to sans-serif */
+    font-size: 1.9em;
+    color: #333333; /* Dark gray color for better readability */
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Align items vertically center */
+}
+
   
