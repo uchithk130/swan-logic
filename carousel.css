@@ -206,5 +206,7 @@ width: 100%;
     display: flex; /* Use flexbox layout */
     align-items: center; /* Align items vertically center */
 }
-
+footer{
+    height: 200px;
+}
   
